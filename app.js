@@ -29,16 +29,16 @@ if(command === "say") {
       if(!mensg)
          return message.channel.send("Digite a mensagem de aviso!")
          
-      const say = new Discord.RichEmbed()
+      const anuncio = new Discord.RichEmbed()
          .setColor("0cff00")
-         .setAuthor("Anúncio", "https://cdn.discordapp.com/attachments/459214311521386497/460544721064820736/thinkingblackguy_1.png")
+         .setAuthor("Anúncio", "https://cdn.discordapp.com/attachments/459214311521386497/460533191510327296/emoji.png")
          
          .setDescription(mensg)
          
          .setTimestamp()
          .setFooter(`Por: ${message.author.tag}` , message.author.avatarURL)
       
-      message.channel.send("@everyone", say)
+      message.channel.send("@everyone", anuncio)
   }
 }
 });
