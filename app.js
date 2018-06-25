@@ -39,7 +39,6 @@ if(command === "say") {
          .setFooter(`Por: ${message.author.tag}` , message.author.avatarURL)
       
       message.channel.send("@everyone", say)
-      everyone.delete()
   }
 }
 });
