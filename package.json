@@ -1,12 +1,12 @@
 {
-  "name": "BattleBot",
+  "name": "Nome",
   "version": "1.0.0",
   "description": "aa",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "author": "Luan ",
+  "author": "Criador",
   "license": "MIT",
   "dependencies": {
     "colors": "^1.1.2",
